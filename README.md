@@ -15,8 +15,11 @@ rows by calculating the duration in seconds, subtracting the call_start time fro
 the call_end time.
 1. Create an HTML view showing a summary for each client_id, with a count of the calls
 and total duration of the calls.
+1. On the summary page, add a filter for client ids, dates and numbers so that the summary page
+shows data for the appropriate clients, date ranges or number selections.
 1. Provide a link from the summary page to a details page that will show a list 
 of the calls from the database, along with the same total call count and duration.
+
 
 ## Guidelines
 
@@ -24,8 +27,8 @@ Use a PHP framework of you choosing, such as Laravel. Your code must adhere to t
 
 ## Bonus Points are awarded for
 
-- The use of a UI framework
-- Retrieving data for the UI is done through a REST call
+- The use of a UI framework, such as Svelte, Vue.js, Next.js & React
+- Asynchronous communication between client and server
 - Use of Test Driven Development methodology
 - Providing a Readme on code design and employed framework
 
